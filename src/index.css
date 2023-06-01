@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .button {
+    @apply rounded-md shadow-sm shadow-black/30 hover:bg-black/10 active:bg-black/10 focus:bg-black/10 focus:outline-none;
+  }
+  .operator {
+    @apply text-teal-300;
+  }
+  .reset {
+    @apply text-rose-300 col-span-2;
+  }
+  .number,
+  .decimal {
+    @apply text-white;
+  }
+  .calculate {
+    @apply text-teal-300 row-span-2;
+  }
+}
